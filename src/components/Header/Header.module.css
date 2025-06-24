@@ -1,0 +1,49 @@
+/*Styles for header*/
+:root {
+  --color-primary: "#33658A";
+  --color-fill-secondary: "#223548";
+  --color-bg-text-hover: "#CDD5DC";
+  --color-bg-layout: "linear-gradient(#5B738B, #F2F4F8)";
+}
+.mainDiv {
+    background-color: var(--color-bg-layout);
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  align-items: center; 
+  gap: 1.5rem; 
+  flex-grow: 1;
+  color: white;
+  cursor: pointer;
+}
+.navItems:hover {
+    color: #CDD5DC;
+}
+
+.signInBtn {
+  border: 1px transparent;
+  color: #fff;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  border-radius: 0.4rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.signInBtn:hover {
+    color: #CDD5DC;
+}
+.getStartBtn {
+  border: 1px transparent;
+  background-color: #223548;
+  color: white;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  border-radius: 0.4rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.getStartBtn:hover {
+    color: #CDD5DC;
+}
