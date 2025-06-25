@@ -1,6 +1,6 @@
 import React from "react";
-
-import Badge from "./../Badge";
+import styles from "../Hero/Hero.module.css"
+import Badge from "../Badge/Badge";
 
 function Hero() {
   return (
@@ -17,6 +17,14 @@ function Hero() {
         <p className="text-center text-2xl mt-6">
           Own them all on the new ERP and Accounting platform
         </p>
+        <div className="flex justify-center items-center gap-6 mt-4">
+            <button className={styles.heroBtn1}>
+                <p>Explore demos</p>
+            </button>
+            <button className={styles.heroBtn2}>
+                <p>Learn more</p>
+            </button>
+        </div>
       </div>
     </div>
   );

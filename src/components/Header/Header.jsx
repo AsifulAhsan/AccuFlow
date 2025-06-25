@@ -7,7 +7,7 @@ function Header() {
     <div className={styles.mainDiv}>
       <header className="flex p-4 justify-between shadow-sm shadow-[#CDD5DC]">
         <div className="flex items-center gap-2">
-          <div className="bg-black rounded-md p-2">
+          <div className="bg-[#33658A] rounded-md p-2">
             <ChartColumn color="white" size={18}/>
           </div>
           <h1 className={styles.navTitle}>AccuFlow</h1>

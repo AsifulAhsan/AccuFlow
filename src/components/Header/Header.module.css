@@ -10,11 +10,11 @@
   align-items: center; 
   gap: 1.5rem; 
   flex-grow: 1;
-  color: #33658A;
+  color: #223548;
   cursor: pointer;
 }
 .navItems:hover {
-    color: #223548;
+    color: #33658A;
 }
 
 .signInBtn {
@@ -31,7 +31,7 @@
 }
 .getStartBtn {
   border: 1px transparent;
-  background-color: #223548;
+  background-color: #33658A;
   color: white;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
@@ -44,8 +44,7 @@
 }
 
 .navTitle {
-  /* "text-xl text-white font-bold" */
-  color: #223548;
+  color: #33658A;
   font-weight: bold;
   font-size: larger;
 }
