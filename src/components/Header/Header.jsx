@@ -1,16 +1,16 @@
 import React from "react";
 import styles from "./Header.module.css";
-import { Building2 } from "lucide-react";
+import { ChartColumn } from "lucide-react";
 
 function Header() {
   return (
-    <div className="bg-[#33658A]">
-      <header className="flex p-4 justify-between">
-        <div className="flex items-center gap-4">
-          <div className="bg-black rounded-lg p-2">
-            <Building2 size={22} color="white" />
+    <div className={styles.mainDiv}>
+      <header className="flex p-4 justify-between shadow-sm shadow-[#CDD5DC]">
+        <div className="flex items-center gap-2">
+          <div className="bg-black rounded-md p-2">
+            <ChartColumn color="white" size={18}/>
           </div>
-          <h1 className="text-xl text-white font-bold">AccuFlow</h1>
+          <h1 className={styles.navTitle}>AccuFlow</h1>
         </div>
         <div className={styles.navLinks}>
           <p className={styles.navItems}>Features</p>

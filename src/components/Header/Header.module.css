@@ -6,7 +6,7 @@
   --color-bg-layout: "linear-gradient(#5B738B, #F2F4F8)";
 }
 .mainDiv {
-    background-color: var(--color-bg-layout);
+    background-color: white;
 }
 .navLinks {
   display: flex;
@@ -15,11 +15,11 @@
   align-items: center; 
   gap: 1.5rem; 
   flex-grow: 1;
-  color: white;
+  color: #33658A;
   cursor: pointer;
 }
 .navItems:hover {
-    color: #CDD5DC;
+    color: #223548;
 }
 
 .signInBtn {
@@ -46,4 +46,11 @@
 }
 .getStartBtn:hover {
     color: #CDD5DC;
+}
+
+.navTitle {
+  /* "text-xl text-white font-bold" */
+  color: #223548;
+  font-weight: bold;
+  font-size: larger;
 }
