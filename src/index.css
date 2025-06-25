@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+:root {
+  --color-primary: "#33658A";
+  --color-fill-secondary: "#223548";
+  --color-bg-text-hover: "#CDD5DC";
+  --color-bg-layout: "linear-gradient(#5B738B, #F2F4F8)";
+}
+
 body {
-    background: whitesmoke;
+  background: whitesmoke;
 }
