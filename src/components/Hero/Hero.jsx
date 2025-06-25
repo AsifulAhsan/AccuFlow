@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Hero/Hero.module.css"
+import styles from "../Hero/Hero.module.css";
 import Badge from "../Badge/Badge";
 
 function Hero() {
@@ -17,14 +17,19 @@ function Hero() {
         <p className="text-center text-2xl mt-6">
           Own them all on the new ERP and Accounting platform
         </p>
-        <div className="flex justify-center items-center gap-6 mt-4">
-            <button className={styles.heroBtn1}>
-                <p>Explore demos</p>
-            </button>
-            <button className={styles.heroBtn2}>
-                <p>Learn more</p>
-            </button>
+        <div className="flex justify-center items-center gap-6 mt-4 mb-6">
+          <button className={styles.heroBtn1}>
+            <p>Explore demos</p>
+          </button>
+          <button className={styles.heroBtn2}>
+            <p>Learn more</p>
+          </button>
         </div>
+          <img
+            src="./src/assets/bigplaceholder.svg"
+            alt="place holder image"
+            className="mt-8 mb-6 rounded-2xl shadow-xl shadow-gray-400 size-5/6 self-center"
+          />
       </div>
     </div>
   );
