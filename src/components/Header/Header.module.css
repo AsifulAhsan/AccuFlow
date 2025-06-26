@@ -1,7 +1,12 @@
 /*Styles for header*/
 
 .mainDiv {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 .navLinks {
   display: flex;
