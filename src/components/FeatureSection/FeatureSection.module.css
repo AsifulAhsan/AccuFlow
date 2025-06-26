@@ -32,23 +32,24 @@
   margin-bottom: 1rem;
   border-radius: 0.5rem;
 }
-.bodyH1{
-font-size: 2rem;
-font-weight: bolder;
-margin-bottom: 0.6rem;
+.bodyH1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 0.6rem;
 }
-.bodyP{
-    font-size: 1.5rem;
-    margin-bottom: 1.8rem;
-    text-wrap: balance;
+.bodyP {
+  font-size: 1.5rem;
+  margin-bottom: 1.8rem;
+  text-wrap: balance;
 }
 
 .bodyItems {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .featureSectionImg {
+  margin-top: 6rem;
   height: 30rem;
   width: 30rem;
 }
