@@ -26,7 +26,7 @@ function Hero() {
           </button>
         </div>
           <img
-            src="./src/assets/bigplaceholder.svg"
+            src="./bigplaceholder.svg"
             alt="place holder image"
             className="mt-8 mb-6 rounded-2xl shadow-xl shadow-gray-400 size-5/6 self-center"
           />
