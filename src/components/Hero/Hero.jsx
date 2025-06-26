@@ -26,9 +26,9 @@ function Hero() {
           </button>
         </div>
           <img
-            src="./bigplaceholder.svg"
+            src="./finext-imac.png"
             alt="place holder image"
-            className="mt-8 mb-6 rounded-2xl shadow-xl shadow-gray-400 size-5/6 self-center"
+            className="mt-8 mb-6 rounded-xl size-5/6 self-center"
           />
       </div>
     </div>
