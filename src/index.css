@@ -8,5 +8,17 @@
 }
 
 body {
-  background: whitesmoke;
+  background: white;
 }
+
+/* 
+## **Prototype Color Usage Summary**
+
+- **Primary Brand**: Red (`#EF4444`)
+- **Main Background**: White (`#FFFFFF`)
+- **Section Alternates**: Warm Beige (`#EEEDE9`)
+- **Text Hierarchy**: Stone scale from `#1C1917` to `#A8A29E`
+- **Dark Sections**: Stone-900 (`#1C1917`)
+- **Accents**: Orange (`#F97316`) and Emerald (`#10B981`)
+
+*/
