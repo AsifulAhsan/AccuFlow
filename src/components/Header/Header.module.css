@@ -24,7 +24,7 @@
 
 .signInBtn {
   border: 1px transparent;
-  color: #fff;
+  color: #33658A;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
   border-radius: 0.4rem;
@@ -32,7 +32,7 @@
   cursor: pointer;
 }
 .signInBtn:hover {
-    color: #CDD5DC;
+    color: #223548;
 }
 .getStartBtn {
   border: 1px transparent;
