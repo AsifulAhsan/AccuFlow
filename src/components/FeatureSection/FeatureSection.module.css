@@ -1,0 +1,54 @@
+.mainDiv {
+  margin: 2rem;
+  padding: 2.5rem;
+}
+.mainDivHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headingH1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.headingP {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+.featureSection {
+  margin-top: 3rem;
+}
+.featureSectionIcon {
+  background-color: #33658a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+.bodyH1{
+font-size: 2rem;
+font-weight: bolder;
+margin-bottom: 0.6rem;
+}
+.bodyP{
+    font-size: 1.5rem;
+    margin-bottom: 1.8rem;
+    text-wrap: balance;
+}
+
+.bodyItems {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.featureSectionImg {
+  height: 30rem;
+  width: 30rem;
+}

@@ -32,7 +32,7 @@
   cursor: pointer;
 }
 .signInBtn:hover {
-    color: #223548;
+    color: var(--color-bg-layout);
 }
 .getStartBtn {
   border: 1px transparent;

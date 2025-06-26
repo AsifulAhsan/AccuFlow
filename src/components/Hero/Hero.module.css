@@ -1,5 +1,5 @@
 .heroBtn1 {
-    background-color: #33658A;
+    background-color: #39719b;
     color: white;
     font-size: large;
     font-weight: 600;
@@ -11,7 +11,9 @@
     padding-bottom: 0.6rem;
     border-radius: 0.5rem;
 }
-
+.heroBtn1:hover {
+    background-color: #274c69;
+}
 .heroBtn2 {
     background-color: white;
     color: black;

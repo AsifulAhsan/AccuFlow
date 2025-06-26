@@ -8,10 +8,10 @@ function Hero() {
       <Badge />
       <div className="flex flex-col gap-3 mt-6">
         <h1 className="text-7xl text-center font-medium">Your Business.</h1>
-        <h1 className="text-7xl text-center font-semibold text-[#223548]">
+        <h1 className="text-7xl text-center font-semibold">
           Your Data.
         </h1>
-        <h1 className="text-7xl text-center font-semibold text-[#33658A]">
+        <h1 className="text-7xl text-center font-semibold">
           Your Future.
         </h1>
         <p className="text-center text-2xl mt-6">
