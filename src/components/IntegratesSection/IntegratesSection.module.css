@@ -65,7 +65,7 @@
   }
 }
 
-.trailContainer:hover .trail {
+.trail:hover  {
   animation-play-state: paused;
 }
 
@@ -79,4 +79,34 @@
     padding-left: 0.8rem;
     padding-right: 0.8rem;
   }
+}
+.prosDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: center;
+  align-items: center;
+}
+.prosIconDiv {
+  background-color: #33658a;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+.prosHeading {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.prosText {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.prosSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  gap: 8rem;
+  align-items: center;
 }
