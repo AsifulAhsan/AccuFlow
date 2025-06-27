@@ -1,0 +1,80 @@
+.mainDiv {
+  background-color: #eeede9;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.sectionHeadingDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.p {
+  font-size: 1.3rem;
+  color: hsl(0, 0%, 25%);
+  text-wrap: pretty;
+  max-width: 40rem;
+  text-align: center;
+}
+.cardIcon {
+  background-color: aliceblue;
+  color: slategray;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.card:hover .cardIcon {
+  background-color: #33658a;
+  color: white;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 2px 5px 6px gray;
+}
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border: none;
+
+  border-radius: 0.8rem;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+
+  height: 22rem;
+  width: 20rem;
+  margin: 2rem;
+  gap: 1rem;
+}
+
+.cardH1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.cardP {
+  text-wrap: balance;
+  font-size: 0.9rem;
+  max-width: 25rem;
+}
+
+.cardList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 0.8rem;
+}
+
+.cardDiv {
+    display: flex;
+    justify-content: space-between;
+}
