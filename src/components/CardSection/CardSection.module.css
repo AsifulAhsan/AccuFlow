@@ -37,6 +37,7 @@
 .card:hover .cardIcon {
   background-color: #33658a;
   color: white;
+  transition: 600ms;
 }
 .card:hover {
   cursor: pointer;
