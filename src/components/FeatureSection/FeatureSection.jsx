@@ -15,30 +15,31 @@ function FeatureSection() {
       </div>
 
       <div className={styles.featureSection}>
-        <div className={styles.featureSectionIcon}>
-          <ChartBar color="white" />
+        <div className={styles.featureSectionBodyDiv}>
+          <div className={styles.featureSectionIcon}>
+            <ChartBar color="white" size={24} />
+          </div>
+          <div className={styles.featureSectionBody}>
+            <h1 className={styles.bodyH1}>Financial Management</h1>
+            <p className={styles.bodyP}>
+              Complete accounting suite with real-time reporting and analytics
+              that gives you full control over your finances.
+            </p>
+            <p className={styles.bodyItems}>
+              Automated bookkeeping with bank reconciliation
+            </p>
+            <p className={styles.bodyItems}>
+              Tax compliance and preparation tools
+            </p>
+            <p className={styles.bodyItems}>
+              Advanced financial forecasting and budgeting
+            </p>
+          </div>
         </div>
-        <div className={styles.featureSectionBody}>
-          <h1 className={styles.bodyH1}>Financial Management</h1>
-          <p className={styles.bodyP}>
-            Complete accounting suite with real-time reporting and analytics
-            that gives you full control over your finances.
-          </p>
-          <p className={styles.bodyItems}>
-            Automated bookkeeping with bank reconciliation
-          </p>
-          <p className={styles.bodyItems}>
-            Tax compliance and preparation tools
-          </p>
-          <p className={styles.bodyItems}>
-            Advanced financial forecasting and budgeting
-          </p>
+
+        <div className={styles.featureSectionImg}>
+          <img src="./bigplaceholder.svg" alt="feature section image" />
         </div>
-        <img
-          src="./bigplaceholder.svg"
-          alt="feature section image"
-          className={styles.featureSectionImg}
-        />
       </div>
     </div>
   );
