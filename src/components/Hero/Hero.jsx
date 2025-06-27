@@ -8,12 +8,8 @@ function Hero() {
       <Badge />
       <div className="flex flex-col gap-3 mt-6">
         <h1 className="text-7xl text-center font-medium">Your Business.</h1>
-        <h1 className="text-7xl text-center font-semibold">
-          Your Data.
-        </h1>
-        <h1 className="text-7xl text-center font-semibold">
-          Your Future.
-        </h1>
+        <h1 className="text-7xl text-center font-semibold">Your Data.</h1>
+        <h1 className="text-7xl text-center font-semibold">Your Future.</h1>
         <p className="text-center text-2xl mt-6">
           Own them all on the new ERP and Accounting platform
         </p>
@@ -25,11 +21,9 @@ function Hero() {
             <p>Learn more</p>
           </button>
         </div>
-          <img
-            src="./finext-imac.png"
-            alt="place holder image"
-            className="mt-8 mb-6 rounded-xl size-5/6 self-center"
-          />
+        <div className={styles.heroImgDiv}>
+          <img src="./finext-imac.png" alt="Hero image" />
+        </div>
       </div>
     </div>
   );

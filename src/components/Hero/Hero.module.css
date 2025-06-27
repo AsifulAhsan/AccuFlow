@@ -1,5 +1,5 @@
 .heroBtn1 {
-  background-color: #33658A;
+  background-color: #33658a;
   color: white;
   font-size: large;
   font-weight: 600;
@@ -12,17 +12,17 @@
   border-radius: 0.5rem;
 }
 .heroBtn1:hover {
-  background-color: #0F577C;
+  background-color: #0f577c;
 }
 .heroBtn2:hover {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 .heroBtn2 {
   background-color: white;
   color: black;
   text-align: center;
   border-color: #0191da;
-  border: 2px solid; 
+  border: 2px solid;
   cursor: pointer;
   font-size: large;
   font-weight: 600;
@@ -37,4 +37,10 @@
   flex: auto;
   justify-content: center;
   align-items: center;
+}
+
+.heroImgDiv {
+  margin-top: 4rem;
+  height: 40rem;
+  width: 40rem;
 }
