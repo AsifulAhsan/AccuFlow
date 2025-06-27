@@ -51,8 +51,14 @@
 }
 
 .bodyItems {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
+}
+.okBtn {
+  color: green;
 }
 
 .featureSectionImg {
@@ -63,7 +69,7 @@
 .sectionImg {
   border-radius: 1.2rem;
 }
-.featureSectionBodyDiv {
+.featureSectionLeftBodyDiv {
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -89,7 +95,7 @@
   color: white;
 }
 
-.featureSection2BodyDiv {
+.featureSectionRightBodyDiv {
   display: flex;
   flex: 1;
   flex-direction: column;

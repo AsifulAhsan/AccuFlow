@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../FeatureSection/FeatureSection.module.css";
-import { ChartBar, MoveRight } from "lucide-react";
+import { CircleCheckBig, ChartBar, MoveRight } from "lucide-react";
 
 function FeatureSection() {
   return (
@@ -19,19 +19,22 @@ function FeatureSection() {
           <div className={styles.featureSectionIcon}>
             <ChartBar color="white" size={24} />
           </div>
-          <div className={styles.featureSectionBody}>
+          <div className={styles.featureSectionLeftBody}>
             <h1 className={styles.bodyH1}>Financial Management</h1>
             <p className={styles.bodyP}>
               Complete accounting suite with real-time reporting and analytics
               that gives you full control over your finances.
             </p>
             <p className={styles.bodyItems}>
+              <CircleCheckBig className={styles.okBtn} />
               Automated bookkeeping with bank reconciliation
             </p>
             <p className={styles.bodyItems}>
+              <CircleCheckBig className={styles.okBtn} />
               Tax compliance and preparation tools
             </p>
             <p className={styles.bodyItems}>
+              <CircleCheckBig className={styles.okBtn} />
               Advanced financial forecasting and budgeting
             </p>
           </div>
@@ -57,7 +60,7 @@ function FeatureSection() {
             className={styles.sectionImg}
           />
         </div>
-        <div className={styles.featureSection2BodyDiv}>
+        <div className={styles.featureSectionRightBodyDiv}>
           <div className={styles.featureSectionIcon}>
             <ChartBar color="white" size={24} />
           </div>
@@ -68,12 +71,17 @@ function FeatureSection() {
               one integrated platform.
             </p>
             <p className={styles.bodyItems}>
+              <CircleCheckBig className={styles.okBtn} />
               Complete employee onboarding workflows
             </p>
             <p className={styles.bodyItems}>
+              <CircleCheckBig className={styles.okBtn} />
               Automated payroll with tax calculations
             </p>
-            <p className={styles.bodyItems}>Performance tracking and reviews</p>
+            <p className={styles.bodyItems}>
+              <CircleCheckBig className={styles.okBtn} />
+              Performance tracking and reviews
+            </p>
           </div>
           <button className={styles.featureSectionBtn}>
             Learn More
