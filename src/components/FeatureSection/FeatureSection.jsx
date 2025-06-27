@@ -1,6 +1,12 @@
 import React from "react";
 import styles from "../FeatureSection/FeatureSection.module.css";
-import { CircleCheckBig, ChartBar, MoveRight } from "lucide-react";
+import {
+  ChartNoAxesCombined,
+  TrendingUp,
+  CircleCheckBig,
+  UsersRound,
+  MoveRight,
+} from "lucide-react";
 
 function FeatureSection() {
   return (
@@ -15,11 +21,11 @@ function FeatureSection() {
       </div>
 
       <div className={styles.featureSection}>
-        <div className={styles.featureSectionBodyDiv}>
+        <div className={styles.featureSectionLeftBodyDiv}>
           <div className={styles.featureSectionIcon}>
-            <ChartBar color="white" size={24} />
+            <ChartNoAxesCombined color="white" size={24} />
           </div>
-          <div className={styles.featureSectionLeftBody}>
+          <div className={styles.featureSectionBody}>
             <h1 className={styles.bodyH1}>Financial Management</h1>
             <p className={styles.bodyP}>
               Complete accounting suite with real-time reporting and analytics
@@ -62,7 +68,7 @@ function FeatureSection() {
         </div>
         <div className={styles.featureSectionRightBodyDiv}>
           <div className={styles.featureSectionIcon}>
-            <ChartBar color="white" size={24} />
+            <UsersRound color="white" size={24} />
           </div>
           <div className={styles.featureSectionBody}>
             <h1 className={styles.bodyH1}>Human Resources</h1>
@@ -87,6 +93,44 @@ function FeatureSection() {
             Learn More
             <MoveRight className={styles.rightArrow} />
           </button>
+        </div>
+      </div>
+      <div className={styles.featureSection}>
+        <div className={styles.featureSectionLeftBodyDiv}>
+          <div className={styles.featureSectionIcon}>
+            <TrendingUp color="white" size={24} />
+          </div>
+          <div className={styles.featureSectionBody}>
+            <h1 className={styles.bodyH1}>Business Intelligence</h1>
+            <p className={styles.bodyP}>
+              Advanced analytics and reporting for data-driven decisions that
+              propel your business forward.
+            </p>
+            <p className={styles.bodyItems}>
+              <CircleCheckBig className={styles.okBtn} />
+              Automated bookkeeping with bank reconciliation
+            </p>
+            <p className={styles.bodyItems}>
+              <CircleCheckBig className={styles.okBtn} />
+              Tax compliance and preparation tools
+            </p>
+            <p className={styles.bodyItems}>
+              <CircleCheckBig className={styles.okBtn} />
+              Advanced financial forecasting and budgeting
+            </p>
+          </div>
+          <button className={styles.featureSectionBtn}>
+            Learn More
+            <MoveRight className={styles.rightArrow} />
+          </button>
+        </div>
+
+        <div className={styles.featureSectionImg}>
+          <img
+            src="./bigplaceholder.svg"
+            alt="feature section image"
+            className={styles.sectionImg}
+          />
         </div>
       </div>
     </div>
