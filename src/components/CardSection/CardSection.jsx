@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../CardSection/CardSection.module.css";
-import { Factory, Dot } from "lucide-react";
+import { Handshake, Factory, HeartPlus, Dot, ShoppingBag } from "lucide-react";
 
 function CardSection() {
   return (
@@ -39,7 +39,7 @@ function CardSection() {
         </div>
         <div className={styles.card}>
           <div className={styles.cardIcon}>
-            <Factory size={32} />
+            <ShoppingBag size={32} />
           </div>
           <h1 className={styles.cardH1}>Retail & E-commerce</h1>
           <p className={styles.cardP}>
@@ -62,47 +62,47 @@ function CardSection() {
         </div>
         <div className={styles.card}>
           <div className={styles.cardIcon}>
-            <Factory size={32} />
+            <HeartPlus size={32} />
           </div>
-          <h1 className={styles.cardH1}>Retail & E-commerce</h1>
+          <h1 className={styles.cardH1}>Healthcare</h1>
           <p className={styles.cardP}>
-            Multi-channel sales, inventory sync, and customer management
+            HIPAA compliance, patient billing, and regulatory reporting
           </p>
           <div>
             <p className={styles.cardList}>
               <Dot color="green" />
-              POS Integration
+              HIPAA Compliance
             </p>
             <p className={styles.cardList}>
               <Dot color="green" />
-              Multi-location Inventory
+              Insurance Claims
             </p>
             <p className={styles.cardList}>
               <Dot color="green" />
-              Customer Analytics
+              Audit Trails
             </p>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.cardIcon}>
-            <Factory size={32} />
+            <Handshake size={32} />
           </div>
-          <h1 className={styles.cardH1}>Retail & E-commerce</h1>
+          <h1 className={styles.cardH1}>Professional Services</h1>
           <p className={styles.cardP}>
-            Multi-channel sales, inventory sync, and customer management
+            Project tracking, time billing, and resource management
           </p>
           <div>
             <p className={styles.cardList}>
               <Dot color="green" />
-              POS Integration
+              Time Tracking
             </p>
             <p className={styles.cardList}>
               <Dot color="green" />
-              Multi-location Inventory
+              Project Profitability
             </p>
             <p className={styles.cardList}>
               <Dot color="green" />
-              Customer Analytics
+              Resource Planning
             </p>
           </div>
         </div>
