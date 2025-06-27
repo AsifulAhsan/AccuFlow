@@ -1,37 +1,40 @@
 .heroBtn1 {
-    background-color: #39719b;
-    color: white;
-    font-size: large;
-    font-weight: 600;
-    cursor: pointer;
-    text-align: center;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    border-radius: 0.5rem;
+  background-color: #33658A;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-radius: 0.5rem;
 }
 .heroBtn1:hover {
-    background-color: #274c69;
+  background-color: #0F577C;
+}
+.heroBtn2:hover {
+    background-color: aliceblue;
 }
 .heroBtn2 {
-    background-color: white;
-    color: black;
-    text-align: center;
-    border-color: #33658A;
-    border: 1px solid;
-    cursor: pointer;
-    font-size: large;
-    font-weight: 600;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    border-radius: 0.5rem;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-color: #0191da;
+  border: 2px solid; 
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-radius: 0.5rem;
 }
 
 .heroBtnDiv {
-    flex: auto;
-    justify-content: center;
-    align-items: center;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
 }

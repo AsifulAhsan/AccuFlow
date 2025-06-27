@@ -5,6 +5,13 @@
   --color-fill-secondary: "#223548";
   --color-bg-text-hover: "#CDD5DC";
   --color-bg-layout: "linear-gradient(#5B738B, #F2F4F8)";
+  
+  /* Logo Darker
+  --color-logo-frame-1: "#0F577C";
+  Logo Dark 
+  --color-logo-frame-2: "#0875AB";
+  Logo Normal 
+  --color-logo-frame-3: "#0191DA"; */
 }
 
 body {

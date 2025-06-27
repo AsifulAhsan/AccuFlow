@@ -19,12 +19,12 @@
   cursor: pointer;
 }
 .navItems:hover {
-    color: #33658A;
+    color: #0191DA;
 }
 
 .signInBtn {
   border: 1px transparent;
-  color: #33658A;
+  color: #0F577C;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
   border-radius: 0.4rem;
@@ -40,16 +40,19 @@
   color: white;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   border-radius: 0.4rem;
   margin-right: 0.5rem;
   cursor: pointer;
 }
 .getStartBtn:hover {
-    color: #CDD5DC;
+  background-color: #0F577C;
 }
 
 .navTitle {
-  color: #33658A;
+  color: #0191DA;
   font-weight: bold;
   font-size: larger;
+  cursor: default;
 }
