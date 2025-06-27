@@ -61,3 +61,15 @@
   justify-content: space-between;
   align-items: start; 
 }
+.featureSectionBtn {
+  margin-top: 3rem;
+  border: 1px solid black;
+  border-radius: 0.8rem;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+.featureSectionBtn:hover {
+  background-color: #33658a;
+  border: none;
+  color: white;
+}

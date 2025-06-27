@@ -35,6 +35,7 @@ function FeatureSection() {
               Advanced financial forecasting and budgeting
             </p>
           </div>
+          <button className={styles.featureSectionBtn}>Learn More</button>
         </div>
 
         <div className={styles.featureSectionImg}>
