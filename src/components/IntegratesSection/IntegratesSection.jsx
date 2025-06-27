@@ -63,6 +63,32 @@ function IntegratesSection() {
           <div className={styles.card}>
             <p className={styles.cardText}>Google Workspace</p>
           </div>
+          {/* Duplicate */}
+          <div className={styles.card}>
+            <p className={styles.cardText}>Shopify</p>
+          </div>
+          <div className={styles.card}>
+            <p className={styles.cardText}>Slack</p>
+          </div>
+          <div className={styles.card}>
+            <p className={styles.cardText}>Salesforce</p>
+          </div>
+          <div className={styles.card}>
+            <p className={styles.cardText}>Google Workspace</p>
+          </div>
+          {/* Duplicate */}
+          <div className={styles.card}>
+            <p className={styles.cardText}>Shopify</p>
+          </div>
+          <div className={styles.card}>
+            <p className={styles.cardText}>Slack</p>
+          </div>
+          <div className={styles.card}>
+            <p className={styles.cardText}>Salesforce</p>
+          </div>
+          <div className={styles.card}>
+            <p className={styles.cardText}>Google Workspace</p>
+          </div>
         </div>
       </div>
     </div>
