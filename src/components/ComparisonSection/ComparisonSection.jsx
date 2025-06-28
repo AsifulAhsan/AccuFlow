@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../ComparisonSection/ComparisonSection.module.css";
-import { CircleCheckBig, BoxSelectIcon } from "lucide-react";
+import { CircleCheckBig, BoxSelectIcon, MoveRight } from "lucide-react";
 
 function ComparisonSection() {
   return (
@@ -161,6 +161,14 @@ function ComparisonSection() {
           <div className={styles.c2Cell}>$99/month</div>
         </div>
       </div>
+      <div className={styles.trialBtnDiv}>
+        <button className={styles.trialBtn}>
+          Start your free trial <MoveRight size={24} />
+        </button>
+      </div>
+      <p className={styles.btnText}>
+        No credit card required • Full access for 14 days
+      </p>
     </div>
   );
 }

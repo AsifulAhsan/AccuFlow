@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 
 .headDiv {
@@ -124,4 +124,36 @@
 }
 .cellText {
   flex: 1;
+}
+.trialBtnDiv {
+  margin-top: 4rem;
+  border: 1px solid black;
+  padding: 0.8rem 3rem;
+  border-radius: 0.4rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+.trialBtnDiv:hover {
+  background-color: #33658a;
+  transition: 400ms;
+  cursor: pointer;
+}
+.trialBtnDiv:hover .trialBtn {
+  color: white;
+  transition: 400ms;
+  cursor: pointer;
+}
+.trialBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: large;
+  font-weight: 700;
+  color: rgb(86, 86, 86);
+}
+.btnText {
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  color: black;
 }
