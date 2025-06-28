@@ -5,6 +5,7 @@ import Banner from "./../Banner/Banner";
 import FeatureSection from "./../FeatureSection/FeatureSection";
 import CardSection from "./../CardSection/CardSection";
 import IntegratesSection from "./../IntegratesSection/IntegratesSection";
+import ComparisonSection from './../ComparisonSection/ComparisonSection';
 
 function LandingPage() {
   return (
@@ -15,6 +16,7 @@ function LandingPage() {
       <FeatureSection />
       <CardSection />
       <IntegratesSection />
+      <ComparisonSection/>
     </div>
   );
 }

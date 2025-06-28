@@ -1,0 +1,14 @@
+.sectionDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12rem 0;
+}
+.sectionH1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.sectionP {
+    font-size: 1.3rem;
+}
