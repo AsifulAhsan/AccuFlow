@@ -35,8 +35,14 @@
   flex-basis: 25%;
   background-color: #fff;
 }
+
 .accuFlowCol {
-  background-color: orangered; /* Light green background for AccuFlow column */
+  background-color: whitesmoke;
+}
+
+.accuFlowCol .c2Cell,
+.accuFlowCol .c2CellA {
+  background-color: whitesmoke;
 }
 
 .cellHead,
@@ -61,7 +67,6 @@
 }
 
 .cellHead2 {
-  /* top-left | top-right | bottom-right | bottom-left */
   border-radius: 10px 10px 0px 0px;
   color: #fff;
   background-color: #000;
@@ -118,10 +123,5 @@
   font-weight: 500;
 }
 .cellText {
-  flex: 1;
-}
-
-.cell1H1 {
-  display: flex;
   flex: 1;
 }
