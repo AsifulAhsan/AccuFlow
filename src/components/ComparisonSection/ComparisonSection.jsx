@@ -71,7 +71,7 @@ function ComparisonSection() {
             <CircleCheckBig className={styles.okBtn} />
           </div>
           <div className={styles.c2CellA}>2-4 weeks</div>
-          <div className={styles.c2CellA}>$49/month</div>
+          <div className={styles.c2CellA}>$30/month</div>
         </div>
         <div className={styles.tableCol}>
           <div className={styles.cellHead}>
@@ -82,16 +82,16 @@ function ComparisonSection() {
             <CircleCheckBig className={styles.okBtn} />
           </div>
           <div className={styles.c2Cell}>
-            <BoxSelectIcon className={styles.boxBtn} />
+            <BoxSelectIcon className={styles.boxBtn} color="black"/>
           </div>
           <div className={styles.c2Cell}>
-            <BoxSelectIcon className={styles.boxBtn} />
+            <BoxSelectIcon className={styles.boxBtn} color="black"/>
           </div>
           <div className={styles.c2Cell}>
-            <BoxSelectIcon className={styles.boxBtn} />
+            <BoxSelectIcon className={styles.boxBtn} color="black"/>
           </div>
           <div className={styles.c2Cell}>
-            <BoxSelectIcon className={styles.boxBtn} />
+            <BoxSelectIcon className={styles.boxBtn} color="black"/>
           </div>
           <div className={styles.c2Cell}>
             <CircleCheckBig className={styles.okBtn} />
@@ -100,7 +100,7 @@ function ComparisonSection() {
             <CircleCheckBig className={styles.okBtn} />
           </div>
           <div className={styles.c2Cell}>1-2 weeks</div>
-          <div className={styles.c2Cell}>$30/month</div>
+          <div className={styles.c2Cell}>$49/month</div>
         </div>
         <div className={styles.tableCol}>
           <div className={styles.cellHead}>
@@ -123,7 +123,7 @@ function ComparisonSection() {
             <CircleCheckBig className={styles.okBtn} />
           </div>
           <div className={styles.c2Cell}>
-            <BoxSelectIcon className={styles.boxBtn} />
+            <BoxSelectIcon className={styles.boxBtn} color="black"/>
           </div>
           <div className={styles.c2Cell}>
             <CircleCheckBig className={styles.okBtn} />
