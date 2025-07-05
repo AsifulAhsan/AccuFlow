@@ -1,12 +1,11 @@
 import React from "react";
 import styles from "./Header.module.css";
-import { ChartColumn } from "lucide-react";
 
 function Header() {
   return (
     <div className={styles.mainDiv}>
-      <header className="flex p-4 justify-between shadow-sm shadow-[#CDD5DC]">
-        <div className="flex items-center gap-2">
+      <header className={styles.header}>
+        <div className={styles.logoDiv}>
             <img src="./finext-icon.png" alt="finext logo" className="size-8"/>
           <h1 className={styles.navTitle}>AccuFlow</h1>
         </div>
