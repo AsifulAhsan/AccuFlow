@@ -4,16 +4,16 @@ import Badge from "../Badge/Badge";
 
 function Hero() {
   return (
-    <div className="flex flex-col gap-4 mt-10 justify-center items-center min-h-80">
+    <div className={styles.mainDiv}>
       <Badge />
-      <div className="flex flex-col gap-3 mt-6">
-        <h1 className="text-7xl text-center font-medium">Your Business.</h1>
-        <h1 className="text-7xl text-center font-semibold">Your Data.</h1>
-        <h1 className="text-7xl text-center font-semibold">Your Future.</h1>
-        <p className="text-center text-2xl mt-6">
+      <div className={styles.subDiv}>
+        <h1 className={styles.h1}>Your Business.</h1>
+        <h1 className={styles.h1}>Your Data.</h1>
+        <h1 className={styles.h1}>Your Future.</h1>
+        <p className={styles.p}>
           Own them all on the new ERP and Accounting platform
         </p>
-        <div className="flex justify-center items-center gap-6 mt-4 mb-6">
+        <div className={styles.btnDiv}>
           <button className={styles.heroBtn1}>
             <p>Explore demos</p>
           </button>
