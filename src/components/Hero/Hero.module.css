@@ -1,4 +1,4 @@
-.mainDiv{
+.mainDiv {
   display: flex;
   overflow-x: hidden;
   justify-content: center;
@@ -8,27 +8,27 @@
   margin-top: 2.5rem;
 }
 
-.subDiv{
+.subDiv {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
   margin-top: 1.5rem;
 }
 
-.h1{
+.h1 {
   font-size: 4.5rem;
   line-height: 1;
   font-weight: 600;
   text-align: center;
 }
 
-.p{
+.p {
   font-size: 1.5rem;
   line-height: 2rem;
   margin-top: 1.5rem;
   text-align: center;
 }
-.btnDiv{
+.btnDiv {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,6 +44,7 @@
   font-weight: 600;
   cursor: pointer;
   text-align: center;
+  width: 14rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   padding-top: 0.6rem;
@@ -65,6 +66,7 @@
   cursor: pointer;
   font-size: large;
   font-weight: 600;
+  width: 14rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   padding-top: 0.6rem;
@@ -82,4 +84,29 @@
   margin-top: 4rem;
   height: 40rem;
   width: 40rem;
+}
+
+@media (max-width: 640px) {
+  .h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  .p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .btnDiv {
+    flex-direction: column;
+  }
+  .heroImgDiv {
+    justify-items: center;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    height: 20rem;
+    width: 20rem;
+  }
 }
