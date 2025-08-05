@@ -1,0 +1,35 @@
+.mainDiv {
+  display: flex;
+  gap: 0.5rem;
+  border-color: #cdd5dc;
+  border-width: 2px;
+  background-color: #33658A;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.75rem;
+  cursor: text;
+}
+
+.badgeText {
+  color: white;
+  font-size: large;
+}
+
+@media (max-width: 740px) {
+  .mainDiv {
+    justify-content: center;
+    height: max-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    border-radius: 0.55rem;
+    cursor: pointer;
+  }
+  .badgeText {
+    font-size: small;
+    text-align: center;
+  }
+}
