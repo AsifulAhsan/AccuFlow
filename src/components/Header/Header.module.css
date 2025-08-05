@@ -99,25 +99,23 @@
 @media (max-width: 640px) {
   .burgerMenu {
     display: block;
-    margin-left: 0;
+    margin-left: 2rem;
   }
   .header {
     padding: 0.75rem;
     gap: 0.5rem;
-    justify-content: flex-center;
+    justify-content: space-between;
   }
   .logoDiv {
     margin-bottom: 0.5rem;
   }
   .navLinks {
     display: none;
-    flex-direction: column;
-    width: 100%;
   }
   .signInBtn {
     display: none;
   }
   .getStartBtn {
-   display: none;
+    display: none;
   }
 }
