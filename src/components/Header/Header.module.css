@@ -99,10 +99,12 @@
 @media (max-width: 795px) {
   .burgerMenu {
     display: block; /* Visible on mobile */
+    margin-left: 0;
   }
   .header {
     padding: 0.75rem;
-    gap: 4rem; /* Reduced gap to minimize space */
+    gap: 0.5rem; /* Reduced from 4rem to a reasonable value */
+    justify-content: flex-center; /* Align to the right to bring them closer */
   }
   .logoDiv {
     margin-bottom: 0.5rem;
@@ -121,5 +123,7 @@
     padding: 0.5rem;
     border-radius: 0.4rem;
     cursor: pointer;
+    margin-right: 0.4rem; 
+    margin-left: 4rem;
   }
 }
