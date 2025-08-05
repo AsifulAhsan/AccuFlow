@@ -1,20 +1,20 @@
 /*Styles for header*/
 
 .mainDiv {
-    background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(12px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  box-shadow: 0 1px 2px 0 #CDD5DC;
+  box-shadow: 0 1px 2px 0 #cdd5dc;
 }
-.logoDiv{
+.logoDiv {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -22,20 +22,20 @@
 .navLinks {
   display: flex;
   align-items: center;
-  justify-content: center; 
-  align-items: center; 
-  gap: 1.5rem; 
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
   flex-grow: 1;
   color: #223548;
   cursor: pointer;
 }
 .navItems:hover {
-    color: #0F577C;
+  color: #0f577c;
 }
 
 .signInBtn {
   border: 1px transparent;
-  color: #0F577C;
+  color: #0f577c;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
   border-radius: 0.4rem;
@@ -43,11 +43,11 @@
   cursor: pointer;
 }
 .signInBtn:hover {
-    color: var(--color-bg-layout);
+  color: var(--color-bg-layout);
 }
 .getStartBtn {
   border: 1px transparent;
-  background-color: #33658A;
+  background-color: #33658a;
   color: white;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
@@ -58,12 +58,24 @@
   cursor: pointer;
 }
 .getStartBtn:hover {
-  background-color: #0F577C;
+  background-color: #0f577c;
 }
 
 .navTitle {
-  color: #33658A;
+  color: #33658a;
   font-weight: bold;
   font-size: larger;
   cursor: default;
+}
+
+@media (max-width: 640px) {
+  .header {
+    flex-direction: column;
+    padding: 0.75rem;
+  }
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
 }
