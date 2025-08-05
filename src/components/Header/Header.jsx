@@ -1,6 +1,7 @@
-import React from "react";
-import styles from "./Header.module.css";
-import { useState, useEffect } from "react";
+import React from 'react';
+import styles from './Header.module.css';
+import { useState, useEffect } from 'react';
+import { Menu } from 'lucide-react';
 
 function Header() {
   const [dimensions, setDimensions] = useState({
@@ -16,17 +17,17 @@ function Header() {
       });
     };
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
     handleResize(); // Set initial dimensions
 
-    return () => window.removeEventListener("resize", handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   return (
     <div className={styles.mainDiv}>
       <header className={styles.header}>
         <div className={styles.logoDiv}>
-          <img src="./finext-icon.png" alt="finext logo" className="size-8" />
+          <img src='./finext-icon.png' alt='finext logo' className='size-8' />
           <h1 className={styles.navTitle}>AccuFlow</h1>
           <p className={styles.dimension}>
             {dimensions.width} x {dimensions.height}
@@ -40,6 +41,9 @@ function Header() {
         </div>
         <button className={styles.signInBtn}>Sign In</button>
         <button className={styles.getStartBtn}>Get Started</button>
+        <button className={styles.burgerMenu}>
+          <Menu />
+        </button>
       </header>
     </div>
   );

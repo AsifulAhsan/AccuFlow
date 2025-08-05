@@ -16,6 +16,7 @@
 
 body {
   background: var(--color-bg-layout);
+  overflow-x: hidden;
 }
 
 /* 

@@ -69,6 +69,9 @@
 }
 
 @media (max-width: 795px) {
+  .burgerMenu {
+    display: block; /* Visible on mobile */
+  }
   .header {
     padding: 0.75rem;
     gap: 0.5rem;
@@ -89,8 +92,24 @@
     margin-right: 0.5rem;
     cursor: pointer;
   }
+  
 }
 .dimension {
   text-align: center;
   color: darkgoldenrod;
+}
+.burgerMenu {
+  display: none; /* Hidden by default (desktop) */
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #33658a;
+}
+
+.burgerMenu:hover {
+  background-color: #0f577c;
+  color: white;
+  transition: all 0.3s ease;
 }
