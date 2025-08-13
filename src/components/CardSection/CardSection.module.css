@@ -25,6 +25,7 @@
   max-width: 40rem;
   text-align: center;
 }
+
 .cardIcon {
   background-color: whitesmoke;
   color: slategray;
@@ -39,10 +40,12 @@
   color: white;
   transition: 600ms;
 }
+
 .card:hover {
   cursor: pointer;
   box-shadow: 2px 5px 6px gray;
 }
+
 .card {
   background-color: white;
   display: flex;
@@ -50,11 +53,9 @@
   justify-content: start;
   align-items: start;
   border: none;
-
   border-radius: 0.8rem;
   padding-left: 1.5rem;
   padding-top: 2rem;
-
   height: 22rem;
   width: 20rem;
   margin: 2rem;
@@ -65,6 +66,7 @@
   font-size: 1.4rem;
   font-weight: 700;
 }
+
 .cardP {
   text-wrap: balance;
   font-size: 0.9rem;
@@ -79,6 +81,51 @@
 }
 
 .cardDiv {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 640px) {
+  .mainDiv {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .p {
+    font-size: 1rem;
+    max-width: 90%;
+    padding: 0 1rem;
+  }
+
+  .cardDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+    margin: 1rem 0;
+    padding: 1.5rem;
+  }
+
+  .cardH1 {
+    font-size: 1.2rem;
+  }
+
+  .cardP {
+    font-size: 0.85rem;
+    max-width: 100%;
+  }
+
+  .cardList {
+    font-size: 0.75rem;
+  }
 }
