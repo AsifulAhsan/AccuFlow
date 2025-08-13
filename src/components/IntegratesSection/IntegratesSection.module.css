@@ -3,57 +3,65 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 10rem;
-  margin-bottom: 8rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  padding: 0 1rem;
 }
+
 .sectionHeader {
-  justify-content: center;
   text-align: center;
+  max-width: 90%;
 }
+
 .sectionH1 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .sectionP {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 400;
+  color: #666;
 }
+
 .trailContainer {
   background-color: var(--color-bg-layout);
-  margin-top: 1rem;
+  margin-top: 2rem;
   width: 100%;
   overflow: hidden;
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
+
 .trail {
   display: flex;
   width: max-content;
-  animation: scroll 60s linear infinite;
-  min-width: 200%;
+  animation: scroll 30s linear infinite;
 }
+
 .cardText {
   text-align: center;
   align-self: center;
+  margin: 0;
 }
+
 .card:hover {
   cursor: text;
 }
+
 .card {
-  min-width: 150px;
-  height: 60px;
+  min-width: 120px;
+  height: 50px;
   background-color: var(--color-bg-layout);
   border: 1px solid #ddd;
   border-radius: 0.5rem;
-  margin-right: 2.5rem;
+  margin-right: 1.5rem;
   display: flex;
-  align-self: center;
+  align-items: center;
   justify-content: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 1rem;
+  padding: 0 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
-  margin-right: 2.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -62,52 +70,132 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
-.trail:hover  {
+.trail:hover {
   animation-play-state: paused;
 }
 
-@media (max-width: 768px) {
-  .trail {
-    animation: scroll 20s linear infinite;
-  }
-  .card {
-    min-width: 120px;
-    height: 60px;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
-  }
-}
-.prosDiv {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-  justify-content: center;
-  align-items: center;
-}
-.prosIconDiv {
-  background-color: #33658a;
-  color: white;
-  padding: 1rem;
-  border-radius: 0.4rem;
-}
-.prosHeading {
-  margin-top: 1rem;
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
-.prosText {
-  font-size: 1rem;
-  font-weight: 400;
-}
 .prosSection {
   display: flex;
   justify-content: space-between;
-  margin-top: 4rem;
-  gap: 8rem;
+  margin-top: 3rem;
+  gap: 2rem;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.prosDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: flex-start;
   align-items: center;
+  flex: 1;
+  min-width: 200px;
+}
+
+.prosIconDiv {
+  background-color: #33658a;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prosHeading {
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.prosText {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+  color: #666;
+}
+
+@media (max-width: 1024px) {
+  .prosSection {
+    gap: 1.5rem;
+  }
+
+  .prosDiv {
+    min-width: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainDiv {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 0 0.5rem;
+  }
+
+  .sectionH1 {
+    font-size: 1.8rem;
+  }
+
+  .sectionP {
+    font-size: 1rem;
+  }
+
+  .trail {
+    animation: scroll 20s linear infinite;
+  }
+
+  .card {
+    min-width: 100px;
+    height: 45px;
+    padding: 0 0.8rem;
+    font-size: 0.85rem;
+    margin-right: 1rem;
+  }
+
+  .prosSection {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .prosDiv {
+    min-width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionH1 {
+    font-size: 1.5rem;
+  }
+
+  .sectionP {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    min-width: 90px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .prosIconDiv {
+    padding: 0.6rem;
+  }
+
+  .prosHeading {
+    font-size: 0.9rem;
+  }
+
+  .prosText {
+    font-size: 0.85rem;
+  }
 }

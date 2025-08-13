@@ -1,6 +1,13 @@
 import React from "react";
-import styles from "../IntegratesSection/IntegratesSection.module.css";
+import styles from "./IntegratesSection.module.css";
 import { Brackets, Landmark, BriefcaseBusiness } from "lucide-react";
+
+const integrations = [
+  "Shopify",
+  "Slack",
+  "Salesforce",
+  "Google Workspace",
+];
 
 function IntegratesSection() {
   return (
@@ -13,89 +20,17 @@ function IntegratesSection() {
       </div>
       <div className={styles.trailContainer}>
         <div className={styles.trail}>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Shopify</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Slack</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Salesforce</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Google Workspace</p>
-          </div>
-          {/* Duplicate */}
-          <div className={styles.card}>
-            <p className={styles.cardText}>Shopify</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Slack</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Salesforce</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Google Workspace</p>
-          </div>
-          {/* Duplicate */}
-          <div className={styles.card}>
-            <p className={styles.cardText}>Shopify</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Slack</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Salesforce</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Google Workspace</p>
-          </div>
-          {/* Duplicate */}
-          <div className={styles.card}>
-            <p className={styles.cardText}>Shopify</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Slack</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Salesforce</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Google Workspace</p>
-          </div>
-          {/* Duplicate */}
-          <div className={styles.card}>
-            <p className={styles.cardText}>Shopify</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Slack</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Salesforce</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Google Workspace</p>
-          </div>
-          {/* Duplicate */}
-          <div className={styles.card}>
-            <p className={styles.cardText}>Shopify</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Slack</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Salesforce</p>
-          </div>
-          <div className={styles.card}>
-            <p className={styles.cardText}>Google Workspace</p>
-          </div>
+          {[...integrations, ...integrations, ...integrations].map((tool, index) => (
+            <div key={`${tool}-${index}`} className={styles.card}>
+              <p className={styles.cardText}>{tool}</p>
+            </div>
+          ))}
         </div>
       </div>
       <div className={styles.prosSection}>
         <div className={styles.prosDiv}>
           <div className={styles.prosIconDiv}>
-            <Landmark size={24} />
+            <Landmark size={20} />
           </div>
           <p className={styles.prosHeading}>Banking & Payments</p>
           <p className={styles.prosText}>
@@ -104,7 +39,7 @@ function IntegratesSection() {
         </div>
         <div className={styles.prosDiv}>
           <div className={styles.prosIconDiv}>
-            <BriefcaseBusiness size={24} />
+            <BriefcaseBusiness size={20} />
           </div>
           <p className={styles.prosHeading}>E-commerce & CRM</p>
           <p className={styles.prosText}>
@@ -113,7 +48,7 @@ function IntegratesSection() {
         </div>
         <div className={styles.prosDiv}>
           <div className={styles.prosIconDiv}>
-            <Brackets size={24} />
+            <Brackets size={20} />
           </div>
           <p className={styles.prosHeading}>Productivity Tools</p>
           <p className={styles.prosText}>
